@@ -1,0 +1,50 @@
+/* Grid Column Lines */
+
+.grid-column-line{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 10px;
+    background-color:darkturquoise;
+    padding: 5px;
+}
+
+.grid-column-line > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.item1{
+    grid-column-start:1;
+    grid-column-end:5;
+}
+.item2{
+    grid-column-start:1;
+    grid-column-end:2;
+}
+.item3{
+    grid-column-start:2;
+    grid-column-end:3;
+}
+.item4{
+    grid-column-start:3;
+    grid-column-end:4;
+}
+.item5{
+    grid-column-start:4;
+    grid-column-end:5;
+}
+.item6{
+    grid-column-start:1;
+    grid-column-end:5 ;
+}
+.item7{
+    grid-column-start:1;
+    grid-column-end:3 ;
+}
+.item8{
+    grid-column-start:3;
+    grid-column-end: 5;
+}

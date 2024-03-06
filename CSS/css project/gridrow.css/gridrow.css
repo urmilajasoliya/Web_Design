@@ -1,0 +1,75 @@
+/*   Grid Row Lines  */
+
+.grid-row-line{
+    display: grid;
+    grid-template-columns: auto  auto auto auto auto;
+    background-color:blueviolet;
+    padding: 10px;
+}
+
+.grid-row-line > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.item1{
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.item2{
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.item3{
+    grid-row-start:3;
+    grid-row-end:4;
+}
+
+.item4{
+    grid-row-start:4;
+    grid-row-end:5;
+}
+
+.item5{
+    grid-row-start:1;
+    grid-row-end:5;
+}
+
+.item6{
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+.item7{
+    grid-row-start:3;
+    grid-row-end:5;
+}
+
+.item8{
+    grid-row-start:1;
+    grid-row-end:5;
+}
+
+.item9{
+    grid-row-start:1;
+}
+
+.item10{
+    grid-row-start:2;
+}
+
+.item11{
+    grid-row-start:3;
+}
+
+.item12{
+    grid-row-start:4;
+}
+
+
+

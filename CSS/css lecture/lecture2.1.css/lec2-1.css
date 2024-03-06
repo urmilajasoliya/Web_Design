@@ -1,0 +1,26 @@
+#box{
+    background-color: blue;
+     color: white; 
+}
+/* .headind{
+    color: brown; */
+
+
+h1,h2,h3{
+    color: blueviolet;
+}
+#one{
+    font-family: arial;
+    line-height: 10px;
+
+}
+#two{
+    font-family: cursive;
+    text-transform: lowercase;
+}
+#four{
+    font-size: 25px;
+}
+#five,six{
+    font-size: 15px;
+}

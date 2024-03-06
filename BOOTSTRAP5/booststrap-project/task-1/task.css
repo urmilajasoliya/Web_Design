@@ -1,0 +1,30 @@
+.container{
+    border: 2px solid gray;
+}
+
+.col-2{
+    height: 35px;
+    border-radius: 10px;background-color: greenyellow;
+}
+
+.col-4{
+    height: 40px;
+    border-radius: 10px;
+    background-color:greenyellow;
+}
+
+.div-2{
+    margin-left: 10%;
+}
+
+.div-3 .row{
+    padding-left: 30%;
+}
+.div-4 .row .col-2{
+    margin-right: 16%;
+}
+
+.div-5 .row .col-2{
+    
+}
+

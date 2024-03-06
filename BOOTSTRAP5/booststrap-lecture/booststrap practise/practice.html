@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Accordion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="practise.css">
+</head>
+
+<body>
+
+  /**** Accordion ****/
+
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is skillqode</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur iusto
+          consequuntur alias accusamus eos. Porro quo expedita ullam sed, fugiat repudiandae suscipit necessitatibus
+          eos, aspernatur earum adipisci cumque nemo numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Cupiditate, dolor! Esse sed cupiditate amet aliquid sint explicabo! Dicta laboriosam ipsa perferendis, neque
+          autem fuga saepe, quae ea incidunt quo totam!
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is skillqode</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore placeat
+          eum omnis vitae. Culpa, reprehenderit alias officia corrupti atque velit impedit, placeat praesentium, earum
+          illo aut deserunt fuga aliquid quaerat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia,
+          accusantium omnis quasi sint sit deleniti nobis, suscipit animi voluptatum ab, saepe aliquam necessitatibus
+          assumenda ducimus eveniet. Neque minima fuga recusandae.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is skillqode</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad
+            commodi officia, numquam placeat rerum. Odio maxime accusamus recusandae tempore asperiores, distinctio
+            minus harum magni temporibus assumenda sunt hic vero? Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tenetur vero impedit officia accusantium, natus nemo perspiciatis. Maxime, facilis. Aliquam qui
+            delectus nulla ad explicabo, expedita placeat vel animi laboriosam modi.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    /**** flush ****/
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dicta
+            voluptatem voluptate! Nihil, recusandae ducimus quae sed reiciendis laborum deleniti quos a enim suscipit
+            hic eveniet nam dicta illo tempora.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque perferendis
+            similique ut atque blanditiis omnis delectus, adipisci aspernatur, beatae error enim corrupti commodi amet
+            autem earum? Itaque, maiores? Accusamus, dicta.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus quaerat
+            facere dolore cupiditate ratione maxime? Nihil eaque consectetur error quam cupiditate odit adipisci.
+            Adipisci, voluptas. Vero rerum minima quia distinctio!</div>
+        </div>
+      </div>
+    </div>
+
+    /**** Always open ****/
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>This is skillqode</strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is skillqode</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque
+            unde, porro delectus veritatis, ad illum odit numquam repellat molestias beatae eum? Exercitationem odit
+            enim vitae possimus quaerat porro fugiat.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is skillqode</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            consequuntur tempora veritatis ipsam laboriosam consequatur quam esse. Amet modi ullam repudiandae
+            laboriosam aut voluptatibus nesciunt placeat, odio recusandae necessitatibus quae.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    /******************** Alerts **********************/
+
+    <div class="alert alert-primary" role="alert">
+      A simple primary alert-check it out!
+    </div>
+
+    <div class="alert alert-secondary" role="alert">
+      ssecondary
+    </div>
+
+    <div class="alert alert-success" role="alert">
+      success
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+      danger
+    </div>
+
+    <div class="alert alert-warning" role="alert">
+      warning
+    </div>
+
+    <div class="alert alert-info" role="alert">
+      info
+    </div>
+
+    <div class="alert alert-light" role="alert">
+      light
+    </div>
+
+    <div class="alert alert-dark" role="alert">
+      dark
+    </div>
+
+    /*************** Link color ***************/
+
+    <div class="alert alert-primary" role="alert">
+      simple primary color<a href="#" class="alert-link">an primary Example</a>.this is skillqode.
+    </div>
+
+    <div class="alert alert-secondary" role="alert">
+      simple secondary color<a href="#" class="alert-link">an secondary Example</a>.this is skillqode.
+    </div>
+
+    <div class="alert alert-success" role="alert">
+      simple success color<a href="#" class="alert-link">an success Example</a>.this is skillqode.
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+      simple danger color<a href="#" class="alert-link">an danger Example</a>.this is skillqode.
+    </div>
+
+    /*************** Icons **************/
+
+    <div class="alert alert-primary d-flex align-items-center" role="alert">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-caret-up-square-fill" viewBox="0 0 16 16">
+        <path
+          d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm4 9h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5A.5.5 0 0 0 4 11" />
+      </svg>
+      <div>
+        this is practise
+      </div>
+    </div>
+
+
+    /***************** Badges *********************/
+
+    <h1>heading example <span class="Badge rounded-pill bg-secondary">text</span></h1>
+
+    <h2>heading example <span class="Badge rounded-pill bg-primary">text</span></h2>
+
+    <h3>heading example <span class="Badge rounded-pill bg-dark">text</span></h3>
+
+    <h4>heading example <span class="Badge rounded-pill bg-light">text</span></h4>
+
+    <h5>heading example <span class="Badge rounded-pill bg-danger">text</span></h5>
+
+    <h6>heading example <span class="Badge rounded-pill bg-success">text</span></h6>
+
+    /********* ********** Breadcrumb *********************/
+
+    <nav aria-label="Breadcrumb">
+      <ol class="Breadcrumb">
+        <li class="Breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+
+    <nav aria-label="Breadcrumb">
+      <ol class="Breadcrumb">
+        <li class="Breadcrumb-item"> <a href="#">Home</a></li>
+        <li class="Breadcrumb-item active" aria-current="page">library</li>
+      </ol>
+    </nav>
+
+    /********************* Button ******************/
+
+    /***************** Variants **********************/
+    <div>
+      <button type="button" class="btn btn-primary">primary</button>
+      <button type="button" class="btn btn-secondary">secondary</button>
+      <button type="button" class="btn btn-success">primary</button>
+      <button type="button" class="btn btn-light">primary</button>
+      <button type="button" class="btn btn-dark">primary</button>
+      <button type="button" class="btn btn-info">primary</button>
+      <button type="button" class="btn btn-danger">primary</button>
+      <button type="button" class="btn btn-warning">primary</button>
+      <button type="button" class="btn btn-link">link</button>
+    </div><br>
+
+
+    <div>
+      <a class="btn btn-primary" href="#" role="button">Link</a>
+      <button class="btn btn-secondary" type="submit">Button</button>
+      <input class="btn btn-dark" type="button" value="Input">
+      <input class="btn btn-info" type="submit" value="Submit">
+      <input class="btn btn-primary" type="reset" value="Reset">
+    </div>
+
+    /************************ Outline button **************************/
+    <div>
+      <button type="button" class="btn btn-outline-primary">primary</button>
+      <button type="button" class="btn btn-outline-secondary">primary</button>
+      <button type="button" class="btn btn-outline-dark">primary</button>
+      <button type="button" class="btn btn-outline-info">primary</button>
+      <button type="button" class="btn btn-outline-danger">primary</button>
+      <button type="button" class="btn btn-outline-success">primary</button>
+      <button type="button" class="btn btn-outline-warning">primary</button>
+
+    </div>
+
+    /******************** Button group ************************/
+    <div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+      </div>
+    </div><br><br>
+
+    /******************* Outlined atyles ***********************/
+    <div>
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-dark">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-dark">Right</button>
+      </div>
+    </div><br>
+    <br>
+
+    /************* Checkbox and radio button groups *******************/
+
+    <div>
+      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+      </div>
+    </div><br><br>
+
+
+    <div class="btn-toolbar" role="toolbar" aria-labelledby="toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="first group">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+        <button type="button" class="btn btn-primary">4</button>
+      </div>
+
+      <div class="btn-group me-2" role="group" aria-label="second group">
+        <button type="button" class="btn btn-success">1</button>
+        <button type="button" class="btn btn-success">2</button>
+        <button type="button" class="btn btn-success">3</button>
+
+      </div>
+
+      <div class="btn-group" role="group" aria-lable="third group">
+        <button type="button" class="btn btn-info">10</button>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

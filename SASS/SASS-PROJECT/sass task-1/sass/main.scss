@@ -1,0 +1,75 @@
+@import 'index';
+
+@mixin boxes{
+    height: $h-7;
+    width: $w-7;
+    background-color: $bg-3;
+    justify-content: center;
+    @content;
+}
+
+.boxes{
+    @include boxes;
+}
+
+ @mixin boxes-1{
+    height:$h-6;
+    width: $w-4;
+    background-color: $bg-1;
+    border-radius:$br-4;
+}
+
+.boxes-1{
+    @include boxes-1;
+}
+
+@mixin img{
+    height:$h-2;
+    width:$w-4;
+    border-radius:$br-4 $br-4 $br-6 $br-6;
+    @content ;
+}
+img{
+    @include img;
+}
+
+@mixin gril{
+    height: $h-1;
+    width: $w-1;
+    border: $bo-1;
+    border-radius: $br-5;
+    margin-left:$pl-4;
+    margin-top: $pt-1;
+    @content ;
+}
+
+.gril img{
+    @include gril;
+}
+
+@mixin box-2{
+   text-align: center;
+   font-size:$fs-2; 
+}
+
+.box-2{
+    @include box-2;
+}
+
+@mixin button{
+    height:$h-10;
+    width: $w-3;
+    text-align: center;
+    background-color: $bg-2;
+    border: $bg-1;
+    margin-left: $m-5;
+    border-radius: $br-3;
+}
+
+.button{
+    @include button;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+.container{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(8, 8, 46);
+}
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-2{
+    
+}
+
+.row-3{
+    
+}
+
+.row-4{
+    
+}

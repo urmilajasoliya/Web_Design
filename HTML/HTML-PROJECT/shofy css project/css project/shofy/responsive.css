@@ -1,0 +1,549 @@
+
+
+@media (max-width :1200px) {
+    .icon-4 {
+        display: none;
+    }
+
+    .user-text {
+        display: none;
+    }
+
+    .Gaming_headphone {
+        width: 48%;
+    }
+
+    .antec_air_cooler {
+        width: 48%;
+    }
+
+    .Sony_Lady_fitness_watch {
+        display: none;
+    }
+
+    .section-5 {
+        width: 45%;
+    }
+
+    .part-3-fix {
+        width: 60%;
+    }
+
+    .section-7 {
+        width: 30%;
+    }
+
+    /*4. Lenova */
+    .Lenova {
+        display: none;
+    }
+
+    .clothes {
+        display: none;
+    }
+
+    .ceramics {
+        width: 48%;
+    }
+
+    .climates {
+        width: 48%;
+    }
+
+    .part-6 {
+        grid-template-columns: auto auto;
+    }
+    .add-image-1 img
+    {
+        width: 590px;
+    }
+    .add-image-2 img
+    {
+        width: 380px;
+    }
+
+}
+
+
+@media (max-width:992px) {
+    .search-bar {
+        display: none;
+    }
+
+    .user_info {
+        display: none;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .container {
+        max-width: 740px;
+    }
+
+    .shopping-part {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .all-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        margin: 10px 5px;
+
+    }
+
+    /* trending  */
+    .trending {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .headphone_wireless {
+        flex-wrap: nowrap;
+        width: 20%;
+    }
+
+    .Gaming headphone {
+        flex-wrap: nowrap;
+    }
+
+    .headphone_with_Mic {
+        flex-wrap: nowrap;
+    }
+
+    .Galaxy Android Tablet {
+        flex-wrap: nowrap;
+    }
+
+    .mobile tablets {
+        flex-wrap: nowrap;
+    }
+
+    .mobile tablets-2 {
+        flex-wrap: nowrap;
+    }
+
+    .CPU Heat Pipes {
+        flex-wrap: nowrap;
+    }
+
+    .CPU Heat Pipes-1 {
+        flex-wrap: nowrap;
+    }
+
+    /* section-2 */
+    .main_part_name h1 {
+        font-size: 30px;
+    }
+
+    .main_part_name-1 h1 {
+        font-size: 30px;
+    }
+
+    .background-text h1 {
+        font-size: 35px;
+    }
+
+    .background-image {
+        width: 75%;
+    }
+    /*   section-12  */
+   .section-12{
+   margin: 0px 20px;
+   } 
+  .img-1{
+    width: 150px;
+    height: 150px;
+    margin: 0px 10px;
+    object-fit: cover;
+  }
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .bg-top-color {
+        display: none;
+    }
+
+    .best-text-image {
+        padding: 100px 0px;
+        display: block;
+    }
+
+    .watch-image {
+        text-align: center;
+    }
+
+    .section-1 {
+        margin: 0px 20px;
+    }
+    .shopping-part{
+        flex-wrap: wrap;
+    }
+    .shopping-part  .section-1:nth-child(3) , .section-1:nth-child(4)
+, .section-1:nth-child(5){
+    margin: 70px 20px;
+}
+    .box {
+        width: 240px;
+        margin: 10px 5px;
+    }
+
+    .all-box {
+        flex-wrap: wrap;
+    }
+
+    .asset {
+        margin: 20px 0px;
+    }
+
+    .maindiv {
+        flex-wrap: wrap;
+    }
+
+    .maindiv-1 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main_part_name-1 h1 {
+        font-size: 25px;
+    }
+
+    .Gaming_headphone {
+        height: 400px;
+        width: 600px;
+    }
+
+    .antec_air_cooler {
+        display: none;
+    }
+
+    .Sony_Lady_fitness_watch {
+        display: none;
+    }
+
+    .section-3 {
+        margin: 10px 5px;
+    }
+
+    .sale-1 {
+        flex-wrap: wrap;
+        margin-top: 20px;
+        width: 640px;
+    }
+
+    .add-2 {
+        border-radius: 20px;
+        margin-top: 20px;
+        width: 550px;
+        height: 250px;
+        object-fit: cover;
+        margin-left: -10px;
+    }
+
+    .add-1 {
+        width: 540px;
+    }
+
+    .all-box-icon {
+        flex-wrap: wrap;
+    }
+
+    .section-7 {
+        position: relative;
+        flex-wrap: wrap;
+        height: 600px;
+    }
+
+    .background-text {
+        padding: 50px 20px;
+        display: block;
+        font-size: 20px;
+    }
+
+    .antec_air_cooler {
+        width: 90%;
+        object-fit: cover;
+    }
+
+    .Sony_Lady_fitness_watch {
+        display: none;
+    }
+
+    .antec_air_cooler {
+        display: none;
+    }
+
+    .section-5 {
+        width: 80%;
+    }
+
+    .bg-text-1 {
+        margin: 0;
+    }
+
+    /* section-5 */
+
+    .section-5 {
+        width: 540px;
+        height: 320px;
+        margin-bottom: 100px;
+    }
+
+    .section-5-1 {
+        display: none;
+    }
+
+    .section-5-2 {
+        display: none;
+    }
+
+    .section-5 {
+        border: 1px solid gray;
+        width: 540px;
+        height: 580px;
+    }
+
+    .Gaming_headphone-image img {
+        display: flex;
+        justify-content: center;
+        height: 450px;
+        width: 450px;
+        overflow: hidden;
+        margin-top: -20px;
+
+    }
+
+    .Gaming_headphone-text {
+        padding: 20px 40px;
+    }
+
+    /* section-6 */
+    .sticky {
+        position: static;
+    }
+
+    .wrap_contain {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .Gadgets {
+        position: static;
+        height: 350px;
+        width: 540px;
+    }
+
+    .Girl_image {
+        margin-left: 180px;
+        margin-bottom: 10px;
+    }
+
+    .novelty-image img {
+        width: 540px;
+        height: 200px;
+    }
+
+    /* section-6 */
+    .part-4 {
+        width: 540px;
+        flex-wrap: wrap;
+    }
+
+    .section-6-1 {
+        flex-wrap: wrap;
+    }
+
+    .background-text {
+        margin-top: -30px;
+        height: 45%;
+        width: 100%
+    }
+
+    .background-text h1 {
+        font-size: 40px;
+    }
+
+    .background-image {
+        width: 100%
+    }
+
+    /* section-8 */
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_part_name-2 h1 {
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+
+    /* section */
+    .trending {
+        flex-wrap: wrap;
+    }
+
+    /*section-9 */
+    .Sony_Smart_Fitness_Watch {
+        display: none;
+    }
+
+    .Lenovo_Wireless_Bluetooth {
+        display: none;
+    }
+
+    /* section-8 */
+
+    .part-6 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_part_name-3 {
+        margin-bottom: 10px;
+    }
+
+    .bg-text-1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 20px;
+        margin-top: 80px;
+        margin-left: -280px;
+    }
+
+    .maindiv-2 {
+        margin-top: 40px;
+        margin-right: 300px;
+    }
+
+    /*  section-11  */
+
+    .part-2 {
+        display: none;
+    }
+
+    .ceramics-image img {
+        width: 500px;
+        height: 320px;
+        margin-left: -50px;
+        border-radius: 10px;
+    }
+
+    .ceramics-image a {
+        position: relative;
+
+    }
+
+    .climates {
+        display: none;
+    }
+
+    .clothes {
+        display: none;
+    }
+
+    /* section-12 */
+    .section-12 {
+        flex-wrap: wrap;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .instagram_icon_1 {
+        display: none;
+    }
+
+    .img-1 {
+        height: 235px;
+        width: 235px;
+        margin: 10px 15px;
+        border-radius: 20px;
+    }
+
+    .img-1 img {
+        height: 240px;
+        width: 240px;
+    }
+
+    .section-13 {}
+
+    .Newsletter {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+    }
+
+    .Newsdesing-1 img {
+        position: absolute;
+        margin-left: 15px;
+    }
+
+    .submit {
+        position: absolute;
+        margin-right: -300px;
+    }
+
+    .climates {
+        display: none;
+    }
+
+    .ceramics {
+        width: 100%;
+    }
+
+    /* footer  */
+    .all_div {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 30px;
+    }
+
+    .div-1 {
+        width: 50%;
+    }
+
+    .div-2 {
+        width: 50%;
+    }
+
+    .div-3 {
+        width: 40%;
+    }
+
+    .div-4 {
+        width: 40%;
+    }
+
+    .last_part {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+}

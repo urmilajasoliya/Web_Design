@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    background-color: green;
+    left: -25px;
+    top: -20px;
+}
+#box3{
+    position: sticky;
+    background-color: blueviolet;
+    top: 0px;
+    left: 20px;
+}
+
+#box4{
+    position: fixed;
+    background-color: crimson;
+    left: 10px;
+    top: 0;
+}

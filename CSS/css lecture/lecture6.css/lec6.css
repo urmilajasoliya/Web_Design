@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+
+/* css Position */
+
+/* .static{
+    position: static;
+}
+
+.fixed{
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    background-color: blue;
+    bottom: -100px;
+}
+
+.stickey{
+    position: sticky;
+    height: 200px;
+    width: 100%;
+    background-color: orange;
+    top:0; 
+    bottom: 0;
+    inset:0 0;
+} */
+
+.maindiv{
+    height: 650px;
+    width: 1200px;
+    margin: auto;
+    background-color: orange;
+    border: 2px solid black;
+    position: relative;
+}
+.maindiv div:nth-child(1){
+    height: 100px;
+    width: 100px;
+background-color: aqua;
+border: 1px;
+position: absolute;
+left: 0;
+}
+.maindiv div:nth-child(2){
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    right: 0;
+
+}
+    .maindiv div:nth-child(3){
+    height: 100px;
+    width: 100px;
+    background-color:aqua ;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+    .maindiv div:nth-child(4){
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+    .maindiv div:nth-child(5){
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    top: 0;
+    margin: auto;
+}
+    .maindiv div:nth-child(6){
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+
+}
+    .maindiv div:nth-child(7){
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+    .maindiv div:nth-child(8){
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+    .maindiv div:nth-child(9){
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        }   
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.container{
+    height: 900px;
+    width: 1300px;
+    border: 2px solid black;
+    background: rgb(173, 168, 168);
+   margin-top: 20px;
+}
+
+.row{
+    padding: 20px;
+}
+
+h3{
+    font-size: 50px;
+    color: aqua;
+}

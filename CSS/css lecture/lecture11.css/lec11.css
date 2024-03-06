@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+.main_div{
+    width: 40vw;
+    height: 70vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: aqua;
+    position: relative;
+    display: table;
+}
+.main_div h1{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}

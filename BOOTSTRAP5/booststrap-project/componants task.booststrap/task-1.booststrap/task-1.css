@@ -1,0 +1,17 @@
+
+.container{
+    height: 800px;
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(188, 220, 223);
+}
+
+.row-1{
+   height: 250px;
+   width: 100%;
+   text-align: center;
+}
+.row-1 h3{
+    font-weight: bold;
+}

@@ -1,0 +1,993 @@
+ * {
+   box-sizing: border-box;
+   margin: 0;
+
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ .container {
+   max-width: 1300px;
+   margin: auto;
+ }
+
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   background-color: white;
+   width: 100%;
+   z-index: 100;
+ }
+
+ .nav-items ul {
+   display: flex;
+ }
+
+ .nav-links {
+   display: flex;
+ }
+
+ .logo a img {
+   margin-left: 100px;
+   height: 25px;
+ }
+
+ ul li {
+   list-style: none;
+   margin: 30px 20px;
+   font-size: 18px;
+ }
+
+ ul li:hover {
+   color: rgb(0, 149, 255);
+ }
+
+ .sidebar {
+   margin: 30px 50px;
+ }
+
+ .sidebar i {
+   font-size: 20px;
+ }
+
+ /*********  part-1  ***************/
+
+ .part-1 {
+   background-image: url('./assets/asset 1.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: 550px;
+ }
+
+ .back-1 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .add-1 {
+   width: 550px;
+   height: 300px;
+   position: absolute;
+   margin-top: 150px;
+   margin-left: 100px;
+ }
+
+ .add-1 h1 {
+   font-size: 50px;
+   color: white;
+ }
+
+ .add-1 span {
+   font-weight: normal;
+ }
+
+ .add-1 p {
+   margin-top: 10px;
+   line-height: 2;
+   font-size: 17px;
+   font-weight: lighter;
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .add-1 button {
+   border-radius: 50px;
+   padding: 8px 40px;
+   border: 1px solid white;
+   margin-top: 20px;
+   background-color: transparent;
+ }
+
+ .add-1 button:hover {
+   background-color: white;
+ }
+
+ /******************* part-2  *******************/
+ .part-2 {
+   background-image: url('./assets/asset 2.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: 620px;
+ }
+
+ .back-2 img {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ /*********  1   *********/
+
+ .frist-div {
+   height: 550px;
+   width: 550px;
+   display: flex;
+   flex-wrap: wrap;
+   float: right;
+   flex-direction: column-reverse;
+   margin-right: 50px;
+ }
+
+ .main-div-1 {
+   margin-bottom: 120px;
+ }
+
+ .cap {
+   height: 240px;
+   width: 240px;
+   border: 2px solid white;
+   padding: 10px 20px;
+ }
+
+ .box-1 {
+   margin-top: 20px;
+   position: relative;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   background-color: rgb(0, 119, 255);
+ }
+
+ .cap:hover .box-1 {
+   background-color: rgba(0, 0, 0);
+ }
+
+ .cap:hover .cap-text {
+   color: black;
+ }
+
+ .cap-icon i {
+   color: white;
+   position: absolute;
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 15px;
+ }
+
+ .cap-text {
+   color: white;
+   height: 100px;
+   width: 180px;
+ }
+
+ .cap-text:hover {
+   color: black;
+ }
+
+ .cap-text h4 {
+   margin-top: 10px;
+   font-size: 25px;
+ }
+
+ .cap-text p {
+   font-size: 15px;
+   line-height: 25px;
+   margin-top: 10px;
+ }
+
+ .cap-text span {
+   font-size: 20px;
+   margin-left: 170px;
+ }
+
+ .cap:hover {
+   background-color: white;
+   color: black;
+ }
+
+ /*********  2   *********/
+
+ .main-div-2 {}
+
+ .bitbucket {
+   height: 240px;
+   width: 240px;
+   border: 2px solid white;
+   padding: 10px 20px;
+   margin: 10px;
+ }
+
+ .box-2 {
+   margin-top: 20px;
+   position: relative;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   background-color: rgb(0, 119, 255);
+ }
+
+ .box-2:hover {
+   color: white;
+   background-color: rgba(0, 0, 0, 0.361);
+ }
+
+ .bitbucket-icon i {
+   color: white;
+   position: absolute;
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 15px;
+ }
+
+ .bitbucket-text {
+   color: white;
+   height: 100px;
+   width: 180px;
+ }
+
+ .bitbucket-text:hover {
+   color: black;
+ }
+
+ .bitbucket-text h4 {
+   margin-top: 10px;
+   font-size: 25px;
+ }
+
+ .bitbucket-text p {
+   font-size: 15px;
+   line-height: 25px;
+   margin-top: 10px;
+ }
+
+ .bitbucket-text span {
+   font-size: 20px;
+   margin-left: 170px;
+ }
+
+ .bitbucket:hover {
+   background-color: white;
+   color: black;
+ }
+
+ .bitbucket:hover .box-2 {
+   background-color: black;
+   color: white;
+ }
+
+ .bitbucket:hover .bitbucket-text {
+   color: black;
+ }
+
+ /*********  3  *********/
+
+ .main-div-3 {}
+
+ .cart {
+   height: 240px;
+   width: 240px;
+   border: 2px solid white;
+   padding: 10px 20px;
+   margin: 10px;
+
+ }
+
+ .box-3 {
+   position: relative;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   background-color: rgb(0, 119, 255);
+ }
+
+ .box-3:hover {
+   color: white;
+   background-color: rgba(0, 0, 0, 0.361);
+ }
+
+ .cart-icon i {
+   color: white;
+   position: absolute;
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 15px;
+ }
+
+ .cart-text {
+   color: white;
+   height: 100px;
+   width: 180px;
+ }
+
+ .cart-text:hover {
+   color: black;
+ }
+
+ .cart-text h4 {
+   margin-top: 10px;
+   font-size: 25px;
+ }
+
+ .cart-text p {
+   font-size: 15px;
+   line-height: 25px;
+   margin-top: 10px;
+ }
+
+ .cart-text span {
+   font-size: 20px;
+   margin-left: 170px;
+ }
+
+ .cart:hover {
+   background-color: white;
+   color: black;
+ }
+
+ .cart:hover .box-3 {
+   background-color: black;
+   color: white;
+ }
+
+ .cart:hover .cart-text {
+   color: black;
+ }
+
+ /************  part-3   ***********/
+
+ .part-3 {
+   background-image: url('assets/asset\ 3.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 630px;
+ }
+
+ .back-3 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .content-box-1 {
+   position: absolute;
+   height: 500px;
+   width: 480px;
+   margin: 60px;
+   padding: 20px 50px;
+ }
+
+ .content {
+   color: white;
+   margin: 20px;
+ }
+
+ .content h1 {
+   font-weight: lighter;
+   margin: 10px 0px;
+ }
+
+ .content h4 {
+   font-weight: lighter;
+ }
+
+ .Development {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 0px 10px;
+ }
+
+ .Development h4 {
+   font-weight: lighter;
+ }
+
+ .div-1 {
+   width: 380px;
+   height: 13px;
+   background-color: white;
+   border-radius: 50px;
+   position: relative;
+ }
+
+ .div-2 {
+   position: absolute;
+   width: 150px;
+   height: 13px;
+   background-color: black;
+   border-radius: 50px;
+   margin-top: -13px;
+ }
+
+ .Veb-Design {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 0px 10px;
+ }
+
+ .Veb-Design h4 {
+   font-weight: lighter;
+ }
+
+ .ui_ux_Design {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 0px 10px;
+ }
+
+ .ui_ux_Design h4 {
+   font-weight: lighter;
+ }
+
+ .div-3 {
+   width: 380px;
+   height: 13px;
+   background-color: white;
+   border-radius: 50px;
+   position: relative;
+ }
+
+ .div-4 {
+   position: absolute;
+   width: 230px;
+   height: 13px;
+   background-color: black;
+   border-radius: 50px;
+   margin-top: -13px;
+ }
+
+ .button-yello button {
+   border: 2px solid white;
+   border-radius: 50px;
+   padding: 8px 40px;
+   background-color: transparent;
+   margin: 40px 0px;
+ }
+
+ .button-yello button:hover {
+   background-color: white;
+ }
+
+
+ /************  part-4  ***********/
+
+ .part-4 {
+   background-image: url('assets/asset\ 4.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 620px;
+ }
+
+ .back-4 {
+   position: relative;
+   width: 100vw;
+   height: 620px;
+ }
+
+ .maindiv {
+   height: 400px;
+   width: 680px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-wrap: wrap;
+   float: right;
+   margin: 100px 50px;
+ }
+
+ /* .section-4{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+} */
+
+ .circle_1 {
+   color: white;
+   height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   padding: 20px;
+   margin: 20px 20px 10px;
+ }
+
+ .circle_1:hover {
+   background-color: white;
+   color: black;
+ }
+
+ .img_1 i {
+   font-size: 40px;
+ }
+
+ .img_1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .img_1_text h2 {
+   text-align: center;
+   margin-top: 8px;
+ }
+
+ .img_1_text p {
+   text-align: center;
+   margin-top: 8px;
+ }
+
+ /******************* part-5  **************/
+ .part-5 {
+   background-image: url('assets/asset\ 5.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 620px;
+ }
+
+ .back-5 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .yellow {
+   height: 450px;
+   width: 500px;
+   color: white;
+   padding: 80px;
+ }
+
+ .yellow h1 {
+   font-size: 40px;
+   font-weight: normal;
+ }
+
+ .yellow p {
+   margin-top: 20px;
+   font-size: 20px;
+   line-height: 1.5;
+   font-weight: lighter;
+ }
+
+ .yellow button {
+   padding: 8px 30px;
+   border-radius: 50px;
+   background-color: transparent;
+   border: 2px solid white;
+   margin-top: 20px;
+ }
+
+ .yellow button:hover {
+   background-color: white;
+ }
+
+ .arrow {
+   display: flex;
+   margin-top: 50px;
+   font-size: 30px;
+ }
+
+ .arrow span {
+   margin: 8px;
+ }
+
+ /**************** part-6  **************/
+ .part-6 {
+   background-image: url('assets/asset\ 6.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 660px;
+ }
+
+ .back-6 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .maindiv_red {
+   height: 550px;
+   width: fit-content;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px 20px;
+ }
+
+ .red {
+   display: flex;
+   justify-content: end;
+   margin-right: 100px;
+ }
+
+ .red2 {
+   display: flex;
+ }
+
+ .red h2 {
+   color: white;
+ }
+
+ .red h4 {
+   color: white;
+   font-size: 40px;
+   font-weight: lighter;
+   margin-top: 30px;
+ }
+
+ .red span {
+   font-weight: bold;
+ }
+
+ .red h1 {
+   color: white;
+ }
+
+ .Standard {
+   height: 460px;
+   width: 220px;
+   text-align: center;
+   padding: 10px;
+   border-right: 1px dashed white;
+ }
+
+ .Standard p {
+   color: white;
+ }
+
+ .Standard span {
+   font-size: 15px;
+ }
+
+ .Standard h2 {
+   border-bottom: 1px dashed white;
+ }
+
+ .Standard h2,
+ p,
+ h1,
+ button {
+   line-height: 2;
+ }
+
+ .Standard h2,
+ p,
+ button {
+   margin-top: 20px;
+ }
+
+ .Standard p {
+   font-weight: lighter;
+ }
+
+ .Standard button {
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 50px;
+   padding: 5px 30px;
+   color: white;
+ }
+
+ .Standard button:hover {
+   background-color: white;
+   color: black;
+ }
+
+ .Premium {
+   height: 460px;
+   width: 220px;
+   text-align: center;
+   padding: 10px;
+   border-left-color: white;
+ }
+
+ .Premium p {
+   color: white;
+ }
+
+ .Premium span {
+   font-size: 15px;
+ }
+
+ .Premium h2 {
+   border-bottom: 1px dashed white;
+ }
+
+ .Premium h2,
+ p,
+ h1,
+ button {
+   line-height: 2;
+ }
+
+ .Premium h2,
+ p,
+ button {
+   margin-top: 20px;
+ }
+
+ .Premium p {
+   font-weight: lighter;
+ }
+
+ .Premium button {
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 50px;
+   padding: 5px 30px;
+   color: white;
+ }
+
+ .Premium button:hover {
+   background-color: white;
+   color: black;
+ }
+
+ /**************** part-7  **************/
+ .part-7 {
+   background-image: url('assets/asset\ 7.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 660px;
+ }
+
+ .back-7 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .mainbox {
+   width: 500px;
+   height: 600px;
+   padding: 80px 120px;
+ }
+
+ .box-4 {
+   width: 350px;
+   height: 300px;
+   background-color: white;
+   border-radius: 10px;
+   padding: 10px 30px 10px 30px;
+   color: gray;
+   text-align: center;
+   position: relative;
+
+ }
+
+ .box-4 i {
+   font-size: 13px;
+ }
+
+ .star span i {
+   color: black;
+   margin: 20px 2px 2px;
+ }
+
+ .img_girl img {
+   position: absolute;
+   border-radius: 50px;
+   border: 2px solid white;
+   margin-top: 30px;
+   margin-left: -50px;
+ }
+
+ .girl_text {
+   color: white;
+   margin-top: 70px;
+   margin-left: 120px;
+ }
+
+ .girl_text h3 {
+   font-weight: normal;
+ }
+
+ /**************** part-8  **************/
+ .part-8 {
+   background-image: url('assets/asset\ 8.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 660px;
+ }
+
+ .back-8 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .form {
+   height: 500px;
+   width: 500px;
+   color: white;
+   float: right;
+   margin: 80px;
+ }
+
+ .form h1 {
+   font-weight: lighter;
+   font-size: 40px;
+ }
+
+ .form span {
+   font-weight: bold;
+ }
+
+ .row-1 {
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .row-2 {
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .row-3 {
+   margin-top: 30px;
+ }
+
+ .blue button {
+   height: 40px;
+   width: 460px;
+   border-radius: 50px;
+   background-color: white;
+   border: none;
+   margin-top: 50px;
+ }
+
+ .blue button:hover {
+   background-color: rgb(0, 225, 255);
+ }
+
+ /**************** part-9  **************/
+ .part-9 {
+   background-image: url('assets/asset\ 9.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 660px;
+ }
+
+ .back-9 {
+   position: relative;
+   width: 100vw;
+   height: 680px;
+ }
+
+ .megaone_office {
+   height: 600px;
+   width: 600px;
+ }
+
+ .megaone {
+   height: 600px;
+   width: 600px;
+   color: white;
+   padding: 100px;
+ }
+
+ .megaone h1 {
+   font-size: 40px;
+   font-weight: lighter;
+ }
+
+ .megaone span {
+   font-size: 40px;
+   font-weight: bold;
+   margin-top: 100px;
+ }
+
+ .icon_box {}
+
+ .icon {
+   margin-top: 30px;
+ }
+
+ .icon span {
+   color: white;
+   border-radius: 5px;
+   font-size: 15px;
+ }
+
+ .icon span i {
+   padding: 7px;
+   margin: 0px 5px;
+   border-radius: 10px;
+ }
+
+ .icon span i:hover {
+   background-color: white;
+   color: black;
+ }
+
+ /**************  part-11  *************/
+
+ .part-10 {
+   height: 350px;
+   width: 100vw;
+   position: relative;
+ }
+
+ .part-10 {
+   background-image: url('assets/asset\ 10.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ .icon_11 {
+   width: 100vw;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   color: gray;
+   position: relative;
+ }
+
+ .icon_11 span {
+   border-radius: 50px;
+ }
+
+ .icon_11 span i {
+   padding: 10px;
+   margin: 0px 8px;
+   border-radius: 50px;
+ }
+
+ .icon_11 span i:hover {
+   background-color: rgb(0, 162, 255);
+   color: white;
+ }
+
+ .part-11_text {
+   color: gray;
+   display: flex;
+   justify-content: center;
+   margin-top: -170px;
+   font-size: 15px;
+ }

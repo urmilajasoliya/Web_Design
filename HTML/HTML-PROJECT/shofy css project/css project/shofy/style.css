@@ -1,0 +1,2153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* comon css  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    height: 100%;
+    margin: auto;
+}
+
+/* header start  */
+
+.bg-top-color {
+    background-color: black;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.topbar-text p {
+    color: white;
+    display: flex;
+}
+
+
+/* navigationbar start */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.maincart{
+    display: flex;
+    align-items: center;
+}
+.user-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 30px;
+}
+
+.user-image i {
+    font-size: 25px;
+    color: gray;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.search-input {
+    border: 2px solid rgb(0, 89, 255);
+    display: flex;
+    align-items: center;
+}
+
+.text-input input {
+    border: 0;
+}
+
+.text-input.text-input:focas-within input {
+    border: 0;
+    outline: none;
+}
+
+.navi-select select {
+    border: 0;
+}
+
+.search-icon {
+    background-color: rgb(0, 89, 255);
+    padding: 10px 20px;
+    display: flex;
+}
+
+.nav-items {
+    border-top: 1px solid gray;
+}
+
+.hotline {
+    display: flex;
+}
+
+
+.top-nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.secound-select {
+    display: flex;
+}
+
+.secound-select ul li {
+    margin-right: 20px;
+}
+
+.round img {
+    margin-right: 1px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.bg-color {
+    background-color: rgba(5, 70, 95, 0.808);
+    height: fit-content;
+
+}
+
+.design-image img {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.best-text-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.watch-image-text h1{
+    font-size: 56px;
+}
+
+.watch-image-text h1 , h4{
+    color: white;
+}
+
+.watch-image-text h4:nth-of-type(2){
+    font-family: 'Oregano', cursive;
+    font-size: 28px;
+}
+
+.watch-image img {
+    max-width: 400px;
+}
+
+.watch-image-text a{
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: white;
+    color:black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.number-style{
+    font-family: 'Oregano', cursive;
+    color:orange
+}
+
+/* shopping part  */
+
+.main-section-1{
+    width: auto;
+    margin-top: 70px;
+}
+.shopping-part {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.section-1{
+    height: 210px;
+    width: 210px;
+    border: 1px solid rgb(181,223,240);
+    display: flex;
+    flex-flow: wrap;
+    background-color:rgb(223,235,241) ;
+    border-radius: 100%;
+    margin-bottom: 100px;
+    flex-direction: row;
+}
+
+.star {
+    color: #ffc107;
+    font-size: 12px;
+    font-weight: 500;
+ }
+ 
+ .line {
+    font-size: 12px;
+    text-decoration: line-through;
+ }
+ 
+ .rate {
+    font-size: 15px;
+    color: #0989ff;
+    font-weight: 700;
+    letter-spacing: 0.2pxlhjlp;
+ }
+/* headphone */
+.headphones-image {
+    margin: 60px;
+    object-fit: cover;
+    position: relative;
+    align-items: center;
+ }
+ 
+ .headphones-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+ }
+ 
+ .headphone-text {
+    text-align: center;
+ }
+ 
+ .headphone-text h3:hover {
+    color: #0989ff;
+ }
+ 
+ /* Moblie-tablests  */
+ .Mobile-1-image {
+   height: 100px;
+   width: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   object-fit: cover;
+   margin-left: 60px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+ }
+ 
+ .Mobile-1-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+ }
+ 
+ .Moblie-1-text {
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 50px;
+ }
+ 
+ .Moblie-1-text h3:hover {
+    color: #0989ff
+ }
+ 
+ /* CPU Heat Pipes */
+ .Pipes-1-image {
+    margin: 60px;
+    margin-top: 48px;
+    object-fit: cover;
+    position: relative;
+ }
+ 
+ .Pipes-1-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+ }
+ 
+ .Pipes-1-text {
+    text-align: center;
+ }
+ 
+ .Pipes-1-text h3:hover {
+    color: #0989ff;
+ }
+ 
+ /* CPU Heat Pipes */
+ .SmartWatch-1-image {
+    margin: 60px;
+    object-fit: cover;
+    position: relative;
+ }
+ 
+ .SmartWatch-1-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+ }
+ 
+ .SmartWatch-1-text {
+    text-align: center;
+ }
+ 
+ .SmartWatch-1-text h3:hover {
+    color: #0989ff;
+ }
+ 
+ /* Bluetooth */
+ .Bluetooth-1-image {
+    margin: 65px 65px 50px 65px;
+    margin-top: 30px;
+    object-fit: cover;
+    position: relative;
+ }
+ 
+ .Bluetooth-1-image:hover img {
+    transform: scale(1.1);
+    transition: 0.1s;
+ }
+ 
+ .Bluetooth-1-text {
+    text-align: center;
+ }
+ 
+ .Bluetooth-1-text h3:hover {
+    color: #0989ff;
+ }
+
+.all-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 280px;
+    background-color: #e5e8ec;
+}
+
+.all-box-icon i {
+    font-size: 25px;
+    color: red;
+}
+
+.frist {
+    display: flex;
+}
+
+/*  treding product  */
+
+.star i {
+    color: orange;
+}
+
+.rate {
+    color: #1485ef;
+}
+
+.asset {
+    display: inline;
+    position: relative;
+    font-size: 25px;
+}
+
+.asset a {
+    padding:0px 20px;
+}
+
+.main_part_name h1 {
+    font-size: 45px;
+}
+
+/* 1.headphone wireless  */
+
+.trending {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.maindiv{
+display: flex;
+justify-content: space-between;
+margin:20px 5px;
+}
+
+.section-3 {
+    height: 400px;
+    width: 250px;
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.section-3:hover {
+    box-shadow: 1px 1px 2px gray;
+}
+
+.headphone_wireless_image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.headphone_wireless_image {
+    height: 400px;
+    width: 250px;
+    position: relative;
+}
+
+.headphone_wireless_text {
+    padding: 20px;
+    margin-top:-150px;
+    border-top: 1px solid gray;
+}
+
+.headphone_wireless_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.headphone_wireless_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*  2.Gaming headphone  */
+
+.Gaming_headphone_image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Gaming_headphone_image {
+    position: relative;
+}
+
+.Gaming_headphone_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.Gaming_headphone_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.Gaming_headphone_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*  headphone with Mic  */
+
+.headphone_with_Mic_image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.headphone_with_Mic_image {
+    position: relative;
+}
+
+.headphone_with_Mic_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.headphone_with_Mic_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.headphone_with_Mic_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*  4.Galaxy Android Tablet  */
+
+.Galaxy_Android_Tablet_image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Galaxy_Android_Tablet_image {
+    position: relative;
+}
+
+.Galaxy_Android_Tablet_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.Galaxy_Android_Tablet_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.Galaxy_Android_Tablet_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*  5.mobile tablets  */
+
+.container-5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1150px;
+    height: 100%;
+    margin: auto;
+}
+
+.mobile_tablets_image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.mobile_tablets_image {
+    position: relative;
+}
+
+.mobile_tablets_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.mobile_tablets_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.mobile_tablets_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*  6.mobile tablets-2  */
+
+.mobile_tablets-2_image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.mobile_tablets-2_image {
+    position: relative;
+}
+
+.mobile_tablets-2_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.mobile_tablets-2_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.mobile_tablets-2_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*  7.CPU Heat Pipes   */
+
+.CPU_Heat_Pipes_image img {
+    height:250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.CPU_Heat_Pipes_image {
+    position: relative;
+}
+
+.CPU_Heat_Pipes_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.CPU_Heat_Pipes_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.CPU_Heat_Pipes_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*   8.CPU Heat Pipes-1   */
+
+.CPU_Heat_Pipes-1_image img {
+    height:250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.CPU_Heat_Pipes-1_image {
+    position: relative;
+}
+
+.CPU_Heat_Pipes-1_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.CPU_Heat_Pipes-1_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.CPU_Heat_Pipes-1_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/*   section-4  add-1    */
+.sale-1{
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.add-1 {
+    overflow: hidden;
+    position: relative;
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.add-2 {
+    overflow: hidden;
+    position: relative;
+    width: 460px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 0px 25px;
+}
+
+.add-1-image {
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.add-1-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.add-1-image img {
+    object-fit: cover;
+    object-position: right;
+}
+
+.add-2-image {
+    position: absolute;
+    margin-top:-40px;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.add-2-image img {
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+.add-1-text {
+    position: absolute;
+    padding: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.add-1-text h1:hover {
+    color: cadetblue;
+}
+
+.add-1 button {
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/*  add-2 */
+
+.add-2-image {
+    overflow: hidden;
+    position: absolute;
+}
+
+.add-2-text {
+    position: absolute;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.add-2-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.add-2 button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/* section-5 , section-6  */
+
+.maindiv-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-text-1 a {
+    padding: 12px 25px;
+    background: #0989ff;
+    border-radius: 8px;
+    color: white;
+}
+
+.main_part_name-1 a {
+    display: flex;
+}
+
+.main_part_name-1 h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.bg-text-1 a:hover {
+    border: 0.5px solid white;
+    color: white;
+    background-color: black;
+}
+
+.main_part_name-1 img {
+    position: absolute;
+    top:10px;
+    z-index: -1;
+}
+
+.part-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row;
+    margin-top: 50px;
+}
+
+/* section-5 */
+.section-5 {
+    height: 450px;
+    width: 318px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.section-5:hover {
+    box-shadow: 2px 2px 5px rgb(176, 174, 174);
+}
+
+/*1. Gaming_headphone */
+.Gaming_headphone-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Gaming_headphone-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Gaming_headphone-image {
+    position: relative;
+}
+
+/* Hover */
+.Gaming_headphone-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Gaming_headphone-text {
+    padding: 25px;
+    border-top: 2px solid rgb(229, 233, 233);
+}
+
+.section-5-1 {
+    height: 450px;
+    width: 318px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* 2.antec_air_cooler */
+.antec_air_cooler-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.antec_air_cooler-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.antec_air_cooler-image {
+    position: relative;
+}
+
+/* Hover */
+.antec_air_cooler-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.antec_air_cooler-text {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+.section-5-2 {
+    height: 450px;
+    width: 318px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+}
+/*3.Sony_Lady_fitness_watch*/
+.Sony_Lady_fitness_watch-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony_Lady_fitness_watch-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Sony_Lady_fitness_watch-image {
+    position: relative;
+}
+
+/* Hover */
+.Sony_Lady_fitness_watch-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Sony_Lady_fitness_watch-text {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* section-6 */
+.wrap_contain {
+    width: 30%;
+    height: 720px;
+}
+
+.sticky{
+    position: sticky;
+    top: 73px;
+}
+
+/* GADGETS */
+.Gadgets {
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+    border: 3px solid rgb(252, 34, 70);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: -9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Girl_image {
+    position: relative;
+    bottom: -31px;
+    left: 140px;
+}
+
+.Gadgets-text {
+    position: relative;
+    top: -290px
+}
+
+.Gadgets-text h3 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(45, 45, 204);
+}
+
+.Gadgets span {
+    font-size: 14px;
+}
+
+.Gadgets span i {
+    margin-left: 5px;
+}
+
+.list {
+    font-size: 15px;
+    list-style-type: disc;
+    margin-left: 10px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    color: blue;
+}
+
+.arrow {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* NOVELTY */
+.novelty {
+    position: sticky;
+    right: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.novelty-image img {
+    height: 150px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    left: -10px;
+    border-radius: 10px;
+}
+
+.novelty-text {
+    z-index: 1;
+    font-size: 22px;
+    color: white;
+    position: relative;
+    padding: 30px;
+}
+.part-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.section-6 {
+    height: 375px;
+    width: 235px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.part-3-fix {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section-3:hover {
+    box-shadow: 1px 1px 3px rgb(176, 174, 174);
+}
+
+.wireless-image-1 img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.wireless-image-1:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.wireless-image-1 {
+    position: relative;
+}
+
+/* Hover */
+.hover-open-content-1 {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.wireless-image-1:hover .hover-open-content-1 {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.wireless-text-1 {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*2.  Gaming Headphone  */
+.Gaming-image-1 img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Gaming-image-1:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Gaming-image-1 {
+    position: relative;
+}
+
+/* Hover */
+.Gaming-image-1:hover .hover-open-content-1 {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Gaming-text-1 {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*3. Headphone with Mic*/
+.Mic-image-1 img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Mic-image-1:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Mic-image-1 {
+    position: relative;
+}
+
+.out-stock {
+    position: absolute;
+    margin: 5px 5px 5px 150px;
+    padding: 3px 3px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: crimson;
+}
+
+/* Hover */
+.Mic-image-1:hover .hover-open-content-1 {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Mic-text-1 {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*4.Galaxy Android Tablet*/
+.Galaxy-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Galaxy-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Galaxy-image {
+    position: relative;
+}
+
+/* Hover */
+.Galaxy-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Galaxy-text {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*5. iPhone 14 Pro */
+.iphone-image-1 img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.iphone-image-1:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.iphone-image-1 {
+    position: relative;
+}
+
+/* Hover */
+.iphone-image-1:hover .hover-open-content-1 {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.iphone-text-1 {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/***6. Apple iPad Air ***/
+.Apple-image-1 img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Apple-image-1:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Apple-image-1 {
+    position: relative;
+}
+
+/* Hover */
+.Apple-image-1:hover .hover-open-content-1 {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Apple-text-1 {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* MAIN PART-4  (Section-6)*/
+.part-4 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row;
+    margin-top: 80px;
+ }
+ 
+ .section-6-1 {
+    width: 100%;
+    height: auto;
+    background-color: #0989ff;
+    margin-bottom: 50px;
+    border-radius: 8px;
+ }
+ 
+ .background {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+ }
+ 
+ .background-text {
+    color: white;
+    width: 45%;
+    position: relative;
+ }
+ 
+ .background-image {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+ }
+ 
+ .background-text h1 {
+    font-size: 50px;
+    font-weight: 80px;
+    margin-bottom: 20px;
+ }
+ 
+ .background-text h2 {
+    font-size: 40px;
+ }
+ 
+ .old_price {
+    font-size: 18px;
+    text-decoration: line-through;
+ }
+ 
+ .shop-botton {
+    margin-top: 50px;
+ }
+ 
+ .shop-botton a {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 15px 45px;
+ }
+ 
+ .shop-botton a:hover {
+    color: black;
+    background-color: white;
+ }
+ 
+ .back-image-1 {
+    position: relative;
+    top: 25px;
+    z-index: 2;
+ 
+ }
+ 
+ .back-image-1 img {
+    width: 100%;
+    height: 100%;
+ }
+ 
+ .back-image-2 {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    z-index: 2;
+ }
+ 
+ .back-image-2 img {
+    height: calc(100% - 5%);
+    width: calc(100% - 5%);
+ }
+
+/*********    section-8     **********/
+
+.main{
+    margin-top:30px;
+    margin-right:800px;
+    margin-bottom:20px;
+}
+.main_part_name-2 h1 {
+    position: relative;
+    font-size: 35px;
+    flex-wrap: wrap;
+}
+.main_part_name-2 img{
+    position: absolute;
+    margin-top: -35px;
+    color: red;
+}
+
+/*********   section-9      *********/
+
+
+
+
+/**  Apple_Watch_Sport_Band **/
+
+.Apple_Watch_Sport_Band_image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Apple_Watch_Sport_Band {
+    height: 400px;
+    width: 250px;
+    position: relative;
+}
+
+.Apple_Watch_Sport_Band_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.Apple_Watch_Sport_Band_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    transition: 1.5s;
+}
+
+.Apple_Watch_Sport_Band_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/**  Sony_Smart_Watch**/
+
+.Sony_Smart_Watch_image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony_Smart_Watch {
+   height: 400px;
+    width: 250px;
+    position: relative;
+}
+
+.Sony_Smart_Watch_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.Sony_Smart_Watch_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    transition: 1.5s;
+}
+
+.Sony_Smart_Watch_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/**  Sony_Smart_Fitness_Watch **/
+
+.Sony_Smart_Fitness_Watch_image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony_Smart_Fitness_Watch {
+   height: 400px;
+    width: 250px;
+    position: relative;
+}
+
+.Sony_Smart_Fitness_Watch_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.Sony_Smart_Fitness_Watch_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    transition: 1.5s;
+}
+
+.Sony_Smart_Fitness_Watch_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/**  Bluetooth **/
+
+.Lenovo_Wireless_Bluetooth_image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Lenovo_Wireless_Bluetooth {
+    position: relative;
+       height: 400px;
+    width: 250px;
+}
+
+.Lenovo_Wireless_Bluetooth_text {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.Lenovo_Wireless_Bluetooth_image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  hover  */
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 40px;
+    transition: 1.5s;
+}
+
+.Lenovo_Wireless_Bluetooth_image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+/***   section-10   ***/
+
+
+/* section-10 */
+.main_part_name-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 50px;
+}
+
+.main_part_name-3 h3 {
+    position: relative;
+    color: black;
+    font-size: 25px;
+}
+
+.main_part_name-3 img {
+    position: relative;
+    margin-top: -25px;
+    border-radius: 10px;
+}
+
+.part-6 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* Section-10 */
+.section-10 {
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-right: 30px;
+}
+
+.grid-part-1 {
+    display: flex;
+    padding: 12px;
+}
+
+.grid-part-image {
+    height: 120px;
+    width: 100px;
+    background-color: rgb(227, 224, 224);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.grid-part-image img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.grid-text p:hover {
+    color: #0989ff;
+}
+
+.grid-text h5:hover {
+    color: #0989ff;
+}
+
+.grid-text {
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.grid-text p {
+    font-size: 12px;
+}
+
+.grid-text h5 {
+    padding-bottom: 8px;
+}
+
+.width {
+    font-size: 12px;
+}
+
+/***    section-11   ***/
+.bg-text-1 {
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.maindiv-2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.part-7 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+/* section-10 */
+
+
+/* section-9*/
+.ceramics {
+    height: auto;
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    object-fit: cover;
+ }
+ 
+ .climates {
+    height: 400px;
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    object-fit: cover;
+ }
+ 
+ .clothes {
+    height: 400px;
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    object-fit: cover;
+ }
+ 
+ .main_part_name-4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ 
+ .main_part_name-4 h1 {
+    position: relative;
+    top: 50px;
+    color: black;
+    font-size: 40px;
+ }
+ 
+ .main_part_name-4 img {
+    position: relative;
+    top: 25px;
+    border-radius: 10px;
+ }
+ 
+ .ceramics-image img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+ }
+ 
+ .climates-image img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+ 
+ }
+ 
+ .clothes-image img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+ }
+ 
+ .shop-text-2 i {
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+ }
+ 
+ .ceramics-text {
+    margin-top: 20px;
+    line-height: 1.5;
+    position: relative;
+ }
+ 
+ .climates-text {
+    margin-top: 20px;
+    line-height: 1.5;
+    position: relative;
+ }
+ 
+ .colthes-text {
+    margin-top: 20px;
+    line-height: 1.5;
+    position: relative;
+ }
+ 
+ .ceramics-text h3 {
+    margin-bottom: 5px;
+ }
+ 
+ .climates-text h3 {
+    margin-bottom: 5px;
+ }
+ 
+ .colthes-text h3 {
+    margin-bottom: 5px;
+ }
+ 
+ .ceramics-text h3:hover {
+    color: #0989ff;
+ }
+ 
+ .climates-text h3:hover {
+    color: #0989ff;
+ }
+ 
+ .colthes-text h3:hover {
+    color: #0989ff;
+ }
+ 
+ .ceramics-text h5:hover {
+    color: #0989ff;
+ }
+ 
+ .climates-text h5:hover {
+    color: #0989ff;
+ }
+ 
+ .colthes-text h5:hover {
+    color: #0989ff;
+ }
+ 
+ .ceramics-text p {
+    margin-top: 8px;
+    padding-bottom: 12px;
+    font-size: 12px;
+ }
+ 
+ .climates-text p {
+    margin-top: 8px;
+    padding-bottom: 12px;
+    font-size: 12px;
+ }
+ 
+ .colthes-text p {
+    margin-top: 8px;
+    padding-bottom: 12px;
+    font-size: 12px;
+ }
+
+/***     MAIN-PART-8    ***/
+
+/***     section-12     ***/
+
+.section-12 {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.img-1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-1 img {
+ height: 200px;
+ width: 200px;
+ object-fit: cover;
+}
+
+.instagram_icon_1 {
+ height: 200px;
+ width: 200px;
+}
+
+.instagram_icon_1 i:hover {
+    transform: scale(1.3);
+    transition: 2s;
+    opacity: calc(1.2);
+}
+
+.overlay {
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    background-color: black;
+    transform: scale(1.2);
+    position: absolute;
+    display: none;
+    top: 0;
+}
+.instagram_icon_1{
+    display: none;
+}
+
+.img-1:hover .instagram_icon_1{
+    display: block;
+}
+.img-1:hover .overlay{
+    display: block;
+}
+
+.instagram_icon_1 span{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram_icon_1 span a i{   
+    border:1px solid rgb(104, 99, 99);
+    font-size: 20px;
+    color:white;
+    padding: 8px;
+    border-radius: 8px; 
+}
+
+
+.img-1:hover .instagram_icon_1 span{
+    animation-duration: 0.8s;
+    animation-name: slide;
+}
+
+/***** MAIN-PART-9 *****/
+
+/***   section-13   ***/
+
+/***   footer part   ***/
+/* Footer part */
+footer {
+    margin-top: 80px;
+    background-color: #e8e9ea;
+ }
+ 
+ .Newsletter {
+    background-color: #0989ff;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    object-fit: cover;
+ }
+ 
+ .text {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .News-text {
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    color: white;
+    padding: 70px 65px;
+    width: 58%;
+ }
+ 
+ .News-text span {
+    font-weight: 700;
+    font-size: 15px;
+ }
+ 
+ .News-text h1 {
+    font-weight: 900;
+ }
+ 
+ .submit-button {
+    position: relative;
+    width: 42%;
+    padding: 70px 0px;
+ }
+ 
+ .submit-button input {
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 20%;
+    padding-left: 26px;
+    z-index: 2;
+    right: 0;
+    outline: none;
+ }
+ 
+ button {
+    background-color: black;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    padding: 22px 40px;
+    position: absolute;
+    right: 0;
+    z-index: 4;
+    overflow: hidden;
+    top: 67px;
+ }
+ 
+ .Newsletter .men-image {
+    position: absolute;
+    z-index: 2;
+    right: 8%;
+    top: -7%;
+ }
+ 
+ .plane {
+    position: absolute;
+    z-index: 3;
+    right: 40%;
+ }
+ 
+ .flexes {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+ }
+ 
+ .Newsdesing-1 {
+    mix-blend-mode: luminosity;
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    height: 160px;
+ }
+ 
+ footer .Newsdesing-2 {
+    mix-blend-mode: luminosity;
+    opacity: 0.4;
+    position: absolute;
+    left: 17%;
+    height: 20px;
+ }
+ 
+ .Newsdesing-3 {
+    mix-blend-mode: luminosity;
+    opacity: 0.4;
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+ }
+ 
+ .all_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+ }
+ 
+ .div-1 {
+    padding: 60px 60px 60px 0;
+    width: 30%;
+    line-height: 1.5;
+ }
+ 
+ .div-1 img {
+    margin-bottom: 20px;
+ }
+ 
+ .div-1 p {
+    margin-bottom: 20px;
+ }
+ 
+ .browser i {
+    background-color: white;
+    border-radius: 8px;
+    display: inline;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    text-align: center;
+    color: rgb(48, 48, 48);
+    box-shadow: 0 1px 1px rgb(159, 158, 158);
+ }
+ 
+ .browser i:hover {
+    color: white;
+    background-color: #0989ff;
+ }
+ 
+ .div-2 {
+    padding: 40px;
+    width: 20%;
+    line-height: 2;
+ }
+ 
+ .div-2 ul li {
+    list-style-type: disc;
+    font-size: 13px;
+    line-height: 2.5;
+    color: rgb(60, 59, 59);
+ }
+ 
+ .div-2 h4 {
+    position: relative;
+    right: 12px;
+ }
+ 
+ .div-3 ul li {
+    list-style-type: disc;
+    font-size: 13px;
+    line-height: 2.5;
+    color: rgb(60, 59, 59);
+ }
+ 
+ .div-3 h4 {
+    position: relative;
+    right: 12px;
+ }
+ 
+ .div-3 {
+    padding: 40px;
+    width: 25%;
+    line-height: 2;
+ }
+ 
+ .div-4 {
+    padding: 40px;
+    width: 25%;
+    line-height: 1.3;
+ }
+ 
+ .div-4 h4 {
+    margin-bottom: 10px;
+ }
+ 
+ .div-4 h2 {
+    margin-bottom: 12px;
+ }
+ 
+ .div-4 span {
+    font-size: 13px;
+ }
+ 
+ .div-4 a {
+    color: inherit;
+    font-size: 13px;
+ }
+ 
+ .last_part {
+    border-top: 1px solid rgb(204, 201, 201);
+    padding-bottom: 80px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+ }
+ 
+ .last_part img {
+    position: relative;
+    right: 0;
+    padding-top: 10px;
+ }
+ 
+ .last_part span span {
+    color: #0989ff
+ }
+
+
+

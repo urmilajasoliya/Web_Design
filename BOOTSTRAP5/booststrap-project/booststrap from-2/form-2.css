@@ -1,0 +1,16 @@
+body{
+    width: 900px;
+    height: 500px;
+    background-color: gray;
+    border: 1px soli black;
+    border-radius: 8px;
+}
+h1{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-3{
+    right:400px;
+}

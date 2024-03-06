@@ -1,0 +1,24 @@
+@import 'index.scss';
+
+
+.box-1 {
+    text-decoration: none;
+    height: $h-500+px;
+    width: $w-500+px;
+    background-color: $bg-1;
+
+    .box-2 {
+        text-decoration: none;
+        height: $h-300+px;
+        width: $w-300+px;
+        background-color: $bg-4;
+
+        .box-3 {
+            text-decoration: none;
+            height: $h-100+px;
+            width: $w-100+px;
+            background-color: $bg-8;
+        }
+
+    }
+}

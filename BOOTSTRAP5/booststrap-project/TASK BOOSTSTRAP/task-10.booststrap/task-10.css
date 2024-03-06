@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 300px;
+}
+span{
+    font-size: 20px;
+    color: rgb(216, 211, 211);
+}
+
+.button-1{
+    border-radius: 40px;
+}
+i{
+    margin-left: 20px;
+}
+
+.button-2{
+    border-radius: 40px;
+}
+
+.text{
+    display: block;
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    border:1px solid black;
+    border-radius: 10px;
+
+}

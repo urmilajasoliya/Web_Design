@@ -1,0 +1,17 @@
+
+.bar {
+    font-size: 40px;
+    font-weight: 900px;
+    color: white;
+}
+
+.offcanvas-header{
+    justify-content: end;
+}
+.btn-close{
+    color: white;
+}
+
+.offcanvas-body { 
+     padding:none; 
+}

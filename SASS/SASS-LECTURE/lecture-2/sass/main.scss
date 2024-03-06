@@ -1,0 +1,29 @@
+
+@use 'sass-1';
+@import 'variables';
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: $bg-11;
+}
+
+.box-1{
+    height: 300px;
+    width: 300px;
+    background-color: $bg-12;
+}
+
+.box-2{
+    height: 200px;
+    width: 200px;
+    background-color: $bg-14;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,26 @@
+.box{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.b-image{
+    height: 500px;
+    width: 800px;
+    border: 3px solid blue;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.row{
+    padding-bottom:20px 0;
+}
+
+.btn{
+    top: 10px;
+    padding: 10px 50px;
+}
